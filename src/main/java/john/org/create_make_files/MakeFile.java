@@ -17,6 +17,11 @@ public class MakeFile {
 
     public MakeFile() {
         System.out.println("This is makefile ");
+        this.name = "makefile";
+        this.command = "asciidoc ";
+        this.current_working_dir = "/home/john/aaa/junk";
+        
+        
 
     }
 }
