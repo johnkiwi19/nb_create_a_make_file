@@ -14,14 +14,12 @@ public class MakeFile {
     private String name;
     private String command;
     private String current_working_dir;
+    private ListOfAllFiles allFiles;
 
     public MakeFile() {
         System.out.println("This is makefile ");
         this.name = "makefile";
         this.command = "asciidoc ";
         this.current_working_dir = "/home/john/aaa/junk";
-        
-        
-
     }
 }
