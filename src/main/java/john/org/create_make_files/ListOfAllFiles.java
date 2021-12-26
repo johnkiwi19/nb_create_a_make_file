@@ -10,5 +10,11 @@ package john.org.create_make_files;
  * @author john
  */
 class ListOfAllFiles {
+
+    public ListOfAllFiles() {
+    
+        System.out.println("This will be a list of all the files");
+    }
+    
     
 }
