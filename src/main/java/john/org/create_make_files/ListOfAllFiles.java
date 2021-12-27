@@ -20,9 +20,8 @@ class ListOfAllFiles {
 
         System.out.println("This will be a list of all the files");
         // TODO Need a list of files in the Working Directory
-        Set s = listFilesUsingJavaIO(".");
+        Set s = listFilesUsingJavaIO("./src/main/java/john/org/create_make_files/");
         System.out.println(s);
-        System.out.println();
 
     }
 
