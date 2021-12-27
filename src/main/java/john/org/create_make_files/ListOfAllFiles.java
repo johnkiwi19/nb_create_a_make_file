@@ -15,6 +15,8 @@ import java.util.stream.Stream;
  * @author john
  */
 class ListOfAllFiles {
+    
+    Set<String> allFiles;
 
     public ListOfAllFiles() {
 
@@ -26,6 +28,8 @@ class ListOfAllFiles {
             System.out.println(object);
             
         }
+        
+        this.allFiles = s;
 
     }
 
@@ -36,4 +40,9 @@ class ListOfAllFiles {
                 .collect(Collectors.toSet());
     }
 
+    public Set<String> getAllFiles() {
+        return allFiles;
+    }
+
+    
 }
