@@ -22,15 +22,9 @@ class ListOfAllFiles {
 
         System.out.println("This will be a list of all the files");
         // TODO Need a list of files in the Working Directory
+        // TODO This class will return a list of all files 
         Set s = listFilesUsingJavaIO(".");
-        
-        for (Object object : s) {
-            System.out.println(object);
-            
-        }
-        
         this.allFiles = s;
-
     }
 
     public Set<String> listFilesUsingJavaIO(String dir) {
