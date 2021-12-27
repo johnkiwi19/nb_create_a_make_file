@@ -21,5 +21,8 @@ public class MakeFile {
         this.name = "makefile";
         this.command = "asciidoc ";
         this.current_working_dir = "/home/john/aaa/junk";
+        
+        allFiles = new ListOfAllFiles();
+        System.out.println(allFiles.getAllFiles());
     }
 }
