@@ -16,3 +16,9 @@ alias c='git commit -m '
 alias a='git add . && s'
 alias b=' git branch '
 
+
+#### Run Package 
+##   Make sure you are in the pom directory
+mvn clean package 
+java -cp target/create_make_Files-1.0-SNAPSHOT.jar john.org.create_make_files.AAAMain 
+
